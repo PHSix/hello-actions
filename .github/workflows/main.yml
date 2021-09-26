@@ -4,6 +4,6 @@ jobs:
   Explore-Github-Acitons:
     runs-on: ubuntu-latest
     steps:
-      - use: actions/checkout@v1
+      - uses: actions/checkout@v1
       - name: Hello Github Actions Print
         run: echo "Hello to use github actions"
