@@ -1,0 +1,10 @@
+name: Nodejs Github Actions
+on: [push]
+jobs: 
+  Run-Node-Code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+      - run: |
+        npm run main
