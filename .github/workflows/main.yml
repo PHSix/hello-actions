@@ -1,6 +1,7 @@
 name: Github Actions Demo
 on: [push]
-jobs: Explore-Github-Acitons:
-  runs-on: ubuntu-latest
-  steps:
-    -run: echo "Hello to use github actions"
+jobs: 
+  Explore-Github-Acitons:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello to use github actions"
