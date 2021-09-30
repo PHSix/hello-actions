@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from 'axios';
 const fetchURL = async function (token) {
   const ax = axios.create({

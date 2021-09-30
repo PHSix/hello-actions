@@ -6,4 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Hello Github Actions Print
-        run: echo "Hello to use github actions"
+        run: | 
+          echo "Hello to use github actions"
+          echo ${{secrets.ACCESS_TOKEN.ACCESS}}

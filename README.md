@@ -1,2 +1,2 @@
 # hello-actions
-github actions 联系
+github actions 练习
