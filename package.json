@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "git@git.zhlh6.cn:PHSix/hello-actions.git",
   "author": "PH <15917977183@163.com>",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "main": "node ./index.js"
