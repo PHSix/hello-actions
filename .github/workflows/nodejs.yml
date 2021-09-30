@@ -6,4 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
-      - run: npm run main
+      with:
+        node-version: '16.3.0'
+      - run: |
+          npm install
+          node ./index.js ${{ secrets.GITHUB_TOKEN }}
